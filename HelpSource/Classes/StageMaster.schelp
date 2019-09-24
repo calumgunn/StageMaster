@@ -1,0 +1,24 @@
+TITLE:: StageMaster
+summary:: A light mastering chain for live performance
+categories:: Live Coding
+
+DESCRIPTION::
+Adds a light EQ, compressor and limiter to all output. Developed primarily for use in live
+performance contexts, and is very specific to the author's preferences.
+Based on the excellent StageLimiter by Batuhan Bozkurt.
+
+CLASSMETHODS::
+
+METHOD:: activate
+
+ARGUMENT:: numChannels
+Number of channels to apply StageMaster to. Defaults to current server config.
+
+ARGUMENT:: compThreshold
+Threshold supplied to Compander.
+
+ARGUMENT:: limiterLevel
+Level to limit to, between 0 and 1.
+
+ARGUMENT:: highEndDb
+dB value to add to hi-shelf EQ above 2.4kHz.

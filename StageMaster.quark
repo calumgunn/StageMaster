@@ -1,0 +1,11 @@
+(
+	\name: "StageMaster",
+	\path: "StageMaster",
+	\summary: "A light mastering chain, for live performance.",
+	\author: "Calum Gunn",
+	\version: 1.0,
+	\country: "Germany",
+	\since: "2019",
+	\url: "http://www.calumgunn.com",
+        \schelp: "StageMaster"
+)
