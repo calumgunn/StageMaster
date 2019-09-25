@@ -41,7 +41,7 @@ StageMaster
                                                 input,
                                                 freq: 2400.0,
                                                 rs: 1.0,
-                                                db: hiShelfDb
+                                                db: highEndDb
                                         );
 
                                         // Limiter
