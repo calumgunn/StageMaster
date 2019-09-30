@@ -7,6 +7,14 @@ tastes.
 
 Based on the excellent StageLimiter by Batuhan Bozkurt.
 
+## Installation
+
+In SuperCollider, evaluate the following code to install it as a quark:
+```
+Quarks.install("https://github.com/calumgunn/StageMaster.git");
+```
+
+
 ## Usage
 
 ```
